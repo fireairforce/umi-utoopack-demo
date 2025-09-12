@@ -6,6 +6,7 @@ export default defineConfig({
     { path: "/docs", component: "docs" },
   ],
   npmClient: 'pnpm',
-  mako: {},
-  // utoopack: {}
+  jsMinifier: "none",
+  // mako: {},
+  utoopack: {}
 });

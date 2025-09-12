@@ -1,4 +1,9 @@
 import yayJpg from '../assets/yay.jpg';
+// import React from 'react';
+
+// const x = require('react/jsx-runtime');
+// x
+// React.version;
 
 export default function HomePage() {
   return (
