@@ -5,6 +5,8 @@ import yayJpg from '../assets/yay.jpg';
 // x
 // React.version;
 
+console.log('233311');
+
 export default function HomePage() {
   return (
     <div>
@@ -13,7 +15,7 @@ export default function HomePage() {
         <img src={yayJpg} width="388" />
       </p>
       <p>
-        To get started, edit <code>pages/index.tsx</code> and save to reload.
+        To get started, edit <code>pages/index.tsx</code> and save to reload. 11122
       </p>
     </div>
   );
