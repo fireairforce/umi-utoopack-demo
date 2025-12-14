@@ -11,6 +11,9 @@ importers:
       umi:
         specifier: 4.6.7
         version: 4.6.7(@babel/core@7.28.4)(@types/node@24.3.1)(@types/react@18.3.24)(@types/webpack@5.28.5)(eslint@8.57.1)(lightningcss@1.22.1)(prettier@3.6.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@3.29.5)(sass@1.54.0)(stylelint@14.16.1)(terser@5.44.0)(type-fest@0.20.2)(typescript@5.9.2)(webpack@5.101.3)
+      vscode-oniguruma:
+        specifier: 1.7.0
+        version: 1.7.0
     devDependencies:
       '@types/react':
         specifier: ^18.0.33
@@ -4826,6 +4829,9 @@ packages:
   vm-browserify@1.1.2:
     resolution: {integrity: sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==, tarball: https://registry.npmjs.org/vm-browserify/-/vm-browserify-1.1.2.tgz}
 
+  vscode-oniguruma@1.7.0:
+    resolution: {integrity: sha512-L9WMGRfrjOhgHSdOYgCt/yRMsXzLDJSL7BPrOZt73gU0iWO4mpqzqQzOz5srxqTvMBaR0XZTSrVWo4j55Rc6cA==, tarball: https://registry.npmjs.org/vscode-oniguruma/-/vscode-oniguruma-1.7.0.tgz}
+
   walker@1.0.8:
     resolution: {integrity: sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ==, tarball: https://registry.npmjs.org/walker/-/walker-1.0.8.tgz}
 
@@ -6125,7 +6131,7 @@ snapshots:
       postcss-preset-env: 7.5.0(postcss@8.5.6)
       rollup-plugin-visualizer: 5.9.0(rollup@3.29.5)
       systemjs: 6.15.1
-      vite: 4.5.2(@types/node@24.3.1)(less@4.4.1)(lightningcss@1.22.1)(sass@1.54.0)(terser@5.44.0)
+      vite: 4.5.2(@types/node@24.3.1)(less@4.1.3)(lightningcss@1.22.1)(sass@1.54.0)(terser@5.44.0)
     transitivePeerDependencies:
       - '@types/node'
       - lightningcss
@@ -6528,7 +6534,7 @@ snapshots:
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.28.4)
       '@babel/plugin-transform-react-jsx-source': 7.27.1(@babel/core@7.28.4)
       react-refresh: 0.14.2
-      vite: 4.5.2(@types/node@24.3.1)(less@4.4.1)(lightningcss@1.22.1)(sass@1.54.0)(terser@5.44.0)
+      vite: 4.5.2(@types/node@24.3.1)(less@4.1.3)(lightningcss@1.22.1)(sass@1.54.0)(terser@5.44.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -10532,7 +10538,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite@4.5.2(@types/node@24.3.1)(less@4.4.1)(lightningcss@1.22.1)(sass@1.54.0)(terser@5.44.0):
+  vite@4.5.2(@types/node@24.3.1)(less@4.1.3)(lightningcss@1.22.1)(sass@1.54.0)(terser@5.44.0):
     dependencies:
       esbuild: 0.18.20
       postcss: 8.5.6
@@ -10540,12 +10546,14 @@ snapshots:
     optionalDependencies:
       '@types/node': 24.3.1
       fsevents: 2.3.3
-      less: 4.4.1
+      less: 4.1.3
       lightningcss: 1.22.1
       sass: 1.54.0
       terser: 5.44.0
 
   vm-browserify@1.1.2: {}
+
+  vscode-oniguruma@1.7.0: {}
 
   walker@1.0.8:
     dependencies:

@@ -1,11 +1,15 @@
 import yayJpg from '../assets/yay.jpg';
-// import React from 'react';
+import * as onig from 'vscode-oniguruma/release/onig.wasm';
 
-// const x = require('react/jsx-runtime');
-// x
-// React.version;
+console.log('onig', onig);
 
-console.log('233311');
+// const res = await fetch(onig.default);
+
+// console.log('res', res);
+
+// const res2 = await fetch("https://unpkg.com/vscode-oniguruma@2.0.1/release/onig.wasm");
+
+// console.log('res2', res2);
 
 export default function HomePage() {
   return (
